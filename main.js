@@ -93,6 +93,7 @@ try {
   }
 
 } catch (error) {
+    // Handle errors in template rendering
   console.error("Error rendering template:", error);
   Deno.exit(1);
 }
